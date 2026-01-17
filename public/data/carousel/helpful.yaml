@@ -1,0 +1,9 @@
+weight: 4
+title: "Very Helpful"
+description: >
+  <ul class="list-style-none">
+    <li>So many uses</li>
+    <li>Untilizable</li>
+  </ul>
+image: "img/carousel/example.png"
+href: "https://devcows.github.io/hugo-universal-theme/"
