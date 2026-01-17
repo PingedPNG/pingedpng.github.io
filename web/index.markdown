@@ -4,5 +4,3 @@
 
 layout: home
 ---
-
-<h1>Wow</h1>
