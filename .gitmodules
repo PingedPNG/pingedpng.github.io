@@ -4,3 +4,6 @@
 [submodule "public/themes/hugo-universal-theme"]
 	path = public/themes/hugo-universal-theme
 	url = https://github.com/devcows/hugo-universal-theme
+[submodule "source/themes/hugo-universal-theme"]
+	path = source/themes/hugo-universal-theme
+	url = https://github.com/devcows/hugo-universal-theme.git
