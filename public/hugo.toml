@@ -7,6 +7,10 @@ author = "Romeo Dabok"
 copyright = "Copyright © 2026 Pinged Technologies"
 DefaultContentLanguage = "en-uk"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [Params]
     date_format = "YYYY-MM-DD"
     disabled_logo = false
