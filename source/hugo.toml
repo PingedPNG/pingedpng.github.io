@@ -12,13 +12,29 @@ DefaultContentLanguage = "en-uk"
     dir = ':cacheDir/images'
 
 [Params]
-    date_format = "YYYY-MM-DD"
+    date_format = "2006-01-02"
     disabled_logo = false
     logo_text = "Pinged PNG"
     copyright = "Copyright © 2026 Pinged Technologies"
     logo = "img/med-logo.png"
     logo_small = "img/small-logo.png"
     style = "red"
+    summaryLength = 70
+    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    contact_url = "/contact"
+    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
+        <br>13/25 New Avenue
+        <br>Newtown upon River
+        <br>45Y 73J
+        <br>England
+        <br>
+        <strong>Great Britain</strong>
+      </p>
+      """
+[Params.footer.recent_posts]
+    enable = true
+
+
 
 [Params.widgets]
     search = true
@@ -43,9 +59,16 @@ DefaultContentLanguage = "en-uk"
     enable = true
     icon = "fa fa-donate"
     title = "Contribute to our cause?"
-    subtitle = "While "
+    subtitle = "An idea without resources to back it is just a dream. To be painfully honest, since incorporation in 2022, our ideas haven't left"
     link_url = "http://your-site.com/more"
     link_text = "Check other homepages"
+
+[Params.recent_posts]
+    enable = true
+    title = "Latest News"
+    subtitle = "Bored already? Read some of our most recent posts on our blog..."
+    hide_summary = false
+
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
